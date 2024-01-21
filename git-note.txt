@@ -1,0 +1,78 @@
+M3FITRIA30 belajar-pdo
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/belajar-pdo/.git/
+M3FITRIA30 (master #) belajar-pdo
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        create.php
+        delete.php
+        koneksi.php
+        read.php
+        select.php
+        update.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+M3FITRIA30 (master #) belajar-pdo
+$ git add .
+M3FITRIA30 (master +) belajar-pdo
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   create.php
+        new file:   delete.php
+        new file:   koneksi.php
+        new file:   read.php
+        new file:   select.php
+        new file:   update.php
+
+M3FITRIA30 (master +) belajar-pdo
+$ git commit -m "belajar tentang PDO"
+[master (root-commit) 20b66e7] belajar tentang PDO
+ 6 files changed, 118 insertions(+)
+ create mode 100644 create.php
+ create mode 100644 delete.php
+ create mode 100644 koneksi.php
+ create mode 100644 read.php
+ create mode 100644 select.php
+ create mode 100644 update.php
+gM3FITRIA30 (master) belajar-pdo
+$ git status
+On branch master
+nothing to commit, working tree clean
+M3FITRIA30 (master) belajar-pdo
+$ git branch -M main
+M3FITRIA30 (main) belajar-pdo
+$ git remote add origin https://github.com/mefitria30/belajar-pdo.git
+M3FITRIA30 (main) belajar-pdo
+$ git status
+On branch main
+nothing to commit, working tree clean
+M3FITRIA30 (main) belajar-pdo
+$ git push -u origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 1.32 KiB | 676.00 KiB/s, done.
+Total 8 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/mefitria30/belajar-pdo.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+M3FITRIA30 (main) belajar-pdo
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+M3FITRIA30 (main) belajar-pdo
+$
